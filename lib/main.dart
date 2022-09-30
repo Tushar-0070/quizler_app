@@ -36,8 +36,8 @@ class _QuizPageState extends State<QuizPage> {
       if (quizBrain.isFinished() == true) {
         Alert(
                 context: context,
-                title: "Finished!",
-                desc: "You have Reached to the end on the quiz!")
+                title: "Completed!",
+                desc: "You have Completed The Quiz!")
             .show();
         quizBrain.reset();
         scorekeeper = [];
@@ -46,7 +46,7 @@ class _QuizPageState extends State<QuizPage> {
           scorekeeper.add(
             Icon(
               Icons.check,
-              color: Colors.green,
+              color: Colors.red,
             ),
           );
         } else {
