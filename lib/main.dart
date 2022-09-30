@@ -10,7 +10,7 @@ class Quizzler extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.grey.shade900,
+        backgroundColor: Colors.grey.shade800,
         body: SafeArea(
           child: Padding(
             padding: EdgeInsets.symmetric(horizontal: 10.0),
@@ -36,8 +36,8 @@ class _QuizPageState extends State<QuizPage> {
       if (quizBrain.isFinished() == true) {
         Alert(
                 context: context,
-                title: "Completed!",
-                desc: "You have Completed The Quiz!")
+                title: "Finished!",
+                desc: "You have Completed the quiz!")
             .show();
         quizBrain.reset();
         scorekeeper = [];
@@ -46,7 +46,7 @@ class _QuizPageState extends State<QuizPage> {
           scorekeeper.add(
             Icon(
               Icons.check,
-              color: Colors.red,
+              color: Colors.brown,
             ),
           );
         } else {
