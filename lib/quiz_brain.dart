@@ -11,7 +11,7 @@ class QuizBrain {
         a: true),
     Question(q: 'A slug\'s blood is green.', a: true),
     Question(q: 'Buzz Aldrin\'s mother\'s maiden name was \"Moon\".', a: true),
-    Question(q: 'It is illegal to pee in the Ocean in Portugal.', a: true),
+    Question(q: 'It is illegal to pee in the Ocean in Portugal.', a: false),
     Question(
         q: 'No piece of square dry paper can be folded in half more than 7 times.',
         a: false),
