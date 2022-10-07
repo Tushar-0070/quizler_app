@@ -4,7 +4,7 @@ class QuizBrain {
   int _count = 0;
 
   List<Question> _questionList = [
-    Question(q: 'Some cats are actually allergic to humans', a: true),
+    Question(q: 'Some cats are allergic to humans', a: true),
     Question(q: 'You can lead a cow down stairs but not up stairs.', a: false),
     Question(
         q: 'Approximately one quarter of human bones are in the feet.',
@@ -16,7 +16,7 @@ class QuizBrain {
         q: 'No piece of square dry paper can be folded in half more than 7 times.',
         a: false),
     Question(
-        q: 'In London, UK, if you happen to die in the House of Parliament, you are technically entitled to a state funeral, because the building is considered too sacred a place.',
+        q: 'In London, UK, if you happen to die in the House of Parliament, you are technically entitled to a state funeral.',
         a: true),
     Question(
         q: 'The loudest sound produced by any animal is 188 decibels. That animal is the African Elephant.',
