@@ -26,7 +26,7 @@ class QuizBrain {
         a: true),
     Question(q: 'Google was originally called \"Backrub\".', a: true),
     Question(
-        q: 'Chocolate affects a dog\'s heart and nervous system; a few ounces are enough to kill a small dog.',
+        q: 'Chocolate affects a dog\'s heart and nervous system, a few ounces are enough to kill a small dog.',
         a: true),
     Question(
         q: 'In West Virginia, USA, if you accidentally hit an animal with your car, you are free to take it home to eat.',
